@@ -427,3 +427,23 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+## Игнорируем секретные файлы
+.env
+appsettings.json
+config.json
+client-secrets.json
+token.json
+
+## Игнорируем папки и файлы Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Игнорируем результаты сборки
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
